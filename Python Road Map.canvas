@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"ed702f1f6db0b3d5","type":"text","text":"variable","x":-100,"y":-30,"width":250,"height":60},
+		{"id":"5c6f35f370ce51c1","type":"text","text":"if else","x":260,"y":-30,"width":140,"height":60},
+		{"id":"a9f071b51648e770","type":"text","text":"loop","x":600,"y":-30,"width":250,"height":60},
+		{"id":"7646617059c83bd9","type":"text","text":"Data Types","x":-120,"y":-200,"width":250,"height":60},
+		{"id":"c570d6e3e1af272a","type":"text","text":"boolean","x":600,"y":-480,"width":250,"height":50},
+		{"id":"e6c84e9e11122032","type":"file","file":"list.md","x":130,"y":-880,"width":400,"height":400},
+		{"id":"c547b98aced476b8","type":"file","file":"dictionaries.md","x":-580,"y":-880,"width":665,"height":400},
+		{"id":"1241185e3e9e2cc6","type":"file","file":"Python.md","x":-680,"y":-200,"width":400,"height":335}
+	],
+	"edges":[
+		{"id":"0ccb31fb0ae05d86","fromNode":"5c6f35f370ce51c1","fromSide":"right","toNode":"a9f071b51648e770","toSide":"left"},
+		{"id":"4a9d66af64149e6e","fromNode":"ed702f1f6db0b3d5","fromSide":"top","toNode":"7646617059c83bd9","toSide":"bottom"},
+		{"id":"e0a4e62f6a356e9d","fromNode":"1241185e3e9e2cc6","fromSide":"right","toNode":"ed702f1f6db0b3d5","toSide":"left"},
+		{"id":"b14b5adea5e61ba4","fromNode":"7646617059c83bd9","fromSide":"top","toNode":"c547b98aced476b8","toSide":"bottom"},
+		{"id":"d52f409b183f386c","fromNode":"7646617059c83bd9","fromSide":"top","toNode":"e6c84e9e11122032","toSide":"bottom"},
+		{"id":"99610d494aab612b","fromNode":"7646617059c83bd9","fromSide":"top","toNode":"c570d6e3e1af272a","toSide":"bottom"},
+		{"id":"d2158ed233524119","fromNode":"c570d6e3e1af272a","fromSide":"bottom","toNode":"5c6f35f370ce51c1","toSide":"top"},
+		{"id":"aa0b878e475bc726","fromNode":"e6c84e9e11122032","fromSide":"right","toNode":"a9f071b51648e770","toSide":"top"}
+	]
+}

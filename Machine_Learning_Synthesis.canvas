@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"a314629452b50fd1","type":"file","file":"unsupervised learning.md","x":300,"y":140,"width":400,"height":400},
+		{"id":"350f6e7b12ea4290","type":"file","file":"reinforcement learning.md","x":300,"y":-960,"width":400,"height":400},
+		{"id":"5e62d85a2c98f1f1","type":"text","text":"# Decision Tree","x":880,"y":-458,"width":250,"height":60},
+		{"id":"dce6ee2fa8f432fc","type":"text","text":"# Random Forest ","x":880,"y":-61,"width":429,"height":63,"color":"3"},
+		{"id":"f69e422a7391ed27","type":"text","text":"# Clustering","x":791,"y":182,"width":250,"height":60},
+		{"id":"cb816b3f3207afe4","type":"text","text":"# KMEANS","x":1184,"y":182,"width":250,"height":60},
+		{"id":"e624d78fe75b12ae","type":"file","file":"supervised learning.md","x":300,"y":-277,"width":400,"height":158},
+		{"id":"1a77712644321af4","type":"file","file":"Machine Learning.md","x":-500,"y":-398,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"9b88709a467e3dda","fromNode":"e624d78fe75b12ae","fromSide":"right","toNode":"dce6ee2fa8f432fc","toSide":"left"},
+		{"id":"5673bb143308862e","fromNode":"e624d78fe75b12ae","fromSide":"right","toNode":"5e62d85a2c98f1f1","toSide":"left"},
+		{"id":"2822c23da8a17a98","fromNode":"a314629452b50fd1","fromSide":"right","toNode":"f69e422a7391ed27","toSide":"left"},
+		{"id":"90be4b53e76c645d","fromNode":"f69e422a7391ed27","fromSide":"right","toNode":"cb816b3f3207afe4","toSide":"left"},
+		{"id":"3e7570846185c7e2","fromNode":"1a77712644321af4","fromSide":"right","toNode":"350f6e7b12ea4290","toSide":"left"},
+		{"id":"56cafe2507117694","fromNode":"1a77712644321af4","fromSide":"right","toNode":"e624d78fe75b12ae","toSide":"left"},
+		{"id":"7328d8775c812101","fromNode":"1a77712644321af4","fromSide":"right","toNode":"a314629452b50fd1","toSide":"left"}
+	]
+}
